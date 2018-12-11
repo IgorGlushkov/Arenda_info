@@ -12,6 +12,8 @@ Copyright (C) 2013 Maxim Dubinin (sim@gis-lab.info), NextGIS (info@nextgis.org)
 
 Modified by Igor Glushkov
 
+![ex1](https://github.com/IgorGlushkov/Arenda_info/edit/master/scr.png)
+
 Tested on Windows 7
 
 License
