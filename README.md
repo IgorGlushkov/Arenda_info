@@ -8,7 +8,7 @@ Plugin is modified from Send2GoofleEath plugin by
 Copyright (C) 2013 Maxim Dubinin (sim@gis-lab.info), NextGIS (info@nextgis.org)
 Modified by Igor Glushkov
 
-Tested on Windows 7, Ubuntu 13.04, MacOS 10.8.5
+Tested on Windows 7
 
 License
 -------------
