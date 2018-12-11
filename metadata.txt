@@ -1,0 +1,31 @@
+[general]
+name=Arenda Info
+description=This plugin takes coordinates of a mouse click open information from http://geoportal.roslesinforg.ru:8080/arend_popup.php?.
+about=Simple tool that grabs current location and get information from Roslesinforg portal (opened in browser).
+category=Vector
+version=0.2.1
+qgisMinimumVersion=2.0
+
+author=Igor Glushkov
+email=glushkov2igor@gmail.com
+
+changelog=0.2.1
+		* Some fixes  
+	0.2:
+		* Use xdotool (command-line X11 automation tool) for control Google Earth in Linux
+	0.1:
+        * add Shift+click to open GE without loosing focus
+        * change Debian GE binary name for Debian
+        * do not block window on Linux
+        * few alternatives for GE location on Windows
+
+icon=icons/icon.png
+
+tags=google,google earth
+
+homepage=
+tracker=
+repository=
+
+experimental=True
+deprecated=False
