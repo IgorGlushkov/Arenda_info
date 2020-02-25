@@ -18,4 +18,4 @@ Source code is from "open in Google Earth plugin" by
 
 modified by IG
 
-![scr] (https://IgorGlushkov@github.com/IgorGlushkov/Arenda_info/blob/master/scr.png?raw=true)
+[![scr] (https://IgorGlushkov@github.com/IgorGlushkov/Arenda_info/blob/master/scr.png?raw=true)]
