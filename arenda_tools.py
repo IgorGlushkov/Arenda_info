@@ -36,7 +36,7 @@ import tempfile
 import platform
 import subprocess
 import webbrowser
-
+#main class
 class GetArendaInfo(QgsMapTool):
   def __init__(self, iface):
     QgsMapTool.__init__(self, iface.mapCanvas())
@@ -65,9 +65,7 @@ class GetArendaInfo(QgsMapTool):
     if crsSrc.authid() != "4326":
         xform = QgsCoordinateTransform(crsSrc, crsWGS)
         point = xform.transform(QgsPoint(point.x(),point.y()))
-    
-    
-	url='http://geoportal.roslesinforg.ru:8080/arend_popup.php?x=%s&y=%s'%(str(point.x()),str(point.y()))
+        url='http://geoportal.roslesinforg.ru:8080/arend_popup.php?x=%s&y=%s'%(str(point.x()),str(point.y()))
     #winpath = 'C:/Program Files/Google/Google Earth/client/googleearth.exe'
     #if not os.path.exists(winpath): winpath = 'C:/Program Files (x86)/Google/Google Earth/client/googleearth.exe'
     
@@ -82,11 +80,11 @@ class GetArendaInfo(QgsMapTool):
       #ret = os.system(cmd)
       if event.modifiers() == Qt.ShiftModifier:
         #subprocess.Popen([winpath, f.name])
-		webbrowser.open(url, new=0, autoraise=False)
+        webbrowser.open(url, new=0, autoraise=False)
       else:
         webbrowser.open(url, new=0, autoraise=False)
     elif platform.system() == 'Linux':
-		webbrowser.open(url, new=0, autoraise=False)      
+      webbrowser.open(url, new=0, autoraise=False)      
     elif platform.system() == "Darwin":
       ret = webbrowser.open(url, new=0, autoraise=False)
     else:
