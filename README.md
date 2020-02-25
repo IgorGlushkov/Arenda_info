@@ -2,16 +2,20 @@
 
 This is a QGIS 2.0 plugin.
 
-It takes the coordinates of the mouse click, creates a temporary file and opens Google Earth at this location.
+It takes the coordinates of the mouse click, and using webservice of [Roslesinforg](http://geoportal.roslesinforg.ru:8080/arend_popup.php) and opens in browser at this location.
 
-Tested on Windows 7, Ubuntu 13.04, MacOS 10.8.5
+Tested on Windows 7
 
 License
 -------------
 This program is licensed under GNU GPL v2 or any later version
 
-Commercial support
+
 ----------
-Need to fix a bug or add a feature to Send2Google Earth? We provide custom development and support for this software. [Contact us](http://nextgis.ru/en/contact/) to discuss options!
+Source script is open in Google Earth plugin by 
 
 [![http://nextgis.com](http://nextgis.ru/img/nextgis.png)](http://nextgis.com)
+
+modified by IG
+
+[https://IgorGlushkov@github.com/IgorGlushkov/Arenda_info/blob/master/scr.png]
