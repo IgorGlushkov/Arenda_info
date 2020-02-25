@@ -1,4 +1,3 @@
-send2google_earth
 ==========
 
 This is a QGIS 2.0 plugin.
