@@ -65,7 +65,8 @@ class GetArendaInfo(QgsMapTool):
     if crsSrc.authid() != "4326":
         xform = QgsCoordinateTransform(crsSrc, crsWGS)
         point = xform.transform(QgsPoint(point.x(),point.y()))
-        url='http://geoportal.roslesinforg.ru:8080/arend_popup.php?x=%s&y=%s'%(str(point.x()),str(point.y()))
+    
+    url='http://geoportal.roslesinforg.ru:8080/arend_popup.php?x=%s&y=%s'%(str(point.x()),str(point.y()))
     #winpath = 'C:/Program Files/Google/Google Earth/client/googleearth.exe'
     #if not os.path.exists(winpath): winpath = 'C:/Program Files (x86)/Google/Google Earth/client/googleearth.exe'
     
